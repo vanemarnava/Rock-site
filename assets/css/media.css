@@ -1,0 +1,26 @@
+
+@media (max-width: 450px) 
+{
+	[class*="col-"] 
+	{
+    	width: 100%;
+    	object-fit: cover;
+  	}
+	
+	nav
+	{
+		background-color: #363c42;
+		width: 100%;
+		padding: 0;
+		height: 4em;
+/*		z-index: 2;*/
+	}
+
+	.imagen
+	{
+		display: block;
+  		object-fit: cover;
+	}
+
+}
+
